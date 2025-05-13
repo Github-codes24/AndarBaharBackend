@@ -166,8 +166,7 @@ const betWinHandler = async (gameId) => {
     console.log("error in betwin handler", error); // Log any errors that occur during bet win handling
   }
 };
-console.log("hello")
-console.log("hello")
+
 console.log("hello testing")
  
 // Export the functions to be used in other parts of the application
