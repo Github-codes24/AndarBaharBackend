@@ -167,6 +167,7 @@ const betWinHandler = async (gameId) => {
   }
 };
 console.log("hello")
+console.log("hello")
  
 // Export the functions to be used in other parts of the application
 module.exports = { handlebet, betWinHandler };
