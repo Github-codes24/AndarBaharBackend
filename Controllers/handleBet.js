@@ -82,6 +82,8 @@ const handlebet = (userId, socket) => {
       if (betType == 1 || betType == 0) {
         user.coins -= parseInt(coins);
       }
+      // add main card id to user ref
+      userbet.game_id = mainCard._id;
  
       // Update the main card's total bet amount
       mainCard.total = mainCard.bahar_amount + mainCard.andar_amount;
